@@ -1,8 +1,13 @@
+/* Try css variables using :root */
+:root {
+    --main-inverse-bg: black;
+}
+
 .navbar-brand {
   font-family: 'Russo One', sans-serif;
 }
 
 .thead-inverse {
-  background: black; 
+  background: var(--main-inverse-bg); 
   color: #FFF;
 }
